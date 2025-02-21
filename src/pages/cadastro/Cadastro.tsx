@@ -83,8 +83,8 @@ function Cadastro() {
               name="nome"
               placeholder="Nome"
               className="border-2 border-slate-700 rounded p-2"
-             value = {usuario.nome}
-             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+              value = {usuario.nome}
+              onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
           <div className="flex flex-col w-full">
@@ -96,7 +96,7 @@ function Cadastro() {
               placeholder="Usuario"
               className="border-2 border-slate-700 rounded p-2"
               value = {usuario.usuario}
-             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+              onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
           <div className="flex flex-col w-full">
@@ -108,7 +108,7 @@ function Cadastro() {
               placeholder="Foto"
               className="border-2 border-slate-700 rounded p-2"
               value = {usuario.foto}
-             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+              onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
           <div className="flex flex-col w-full">
@@ -120,7 +120,7 @@ function Cadastro() {
               placeholder="Senha"
               className="border-2 border-slate-700 rounded p-2"
               value = {usuario.senha}
-             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+              onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>
           <div className="flex flex-col w-full">
@@ -143,8 +143,8 @@ function Cadastro() {
             <button 
                 type='submit'
                 className='rounded text-white bg-indigo-400 
-                           hover:bg-indigo-900 w-1/2 py-2
-                           flex justify-center' 
+                          hover:bg-indigo-900 w-1/2 py-2
+                          flex justify-center' 
                 >
                   {isLoading ? <RotatingLines
                     strokeColor="white"
